@@ -4,9 +4,6 @@ import glob
 import re
 from typing import List
 
-# todo close in c++ tools using pgn-extract
-# https://www.cs.kent.ac.uk/people/staff/djb/pgn-extract/help.html#-w
-
 commentRe = re.compile("([+-]*M*[0-9.]*)/([0-9]*)")
 mateRe = re.compile("([+-])M([0-9]*)")
 flip_black = False
